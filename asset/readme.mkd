@@ -1,0 +1,15 @@
+<!-- put in this folder your reuse or image if you don't want to  change in html file follow this namind convention -->
+
+<!-- 
+rename you resume with -> ApResume.pdf
+
+project images 
+
+for image 1 -> pro11.png
+for image 2 -> pro2.png
+for imgae 3 -> pro3.png
+for image 4 -> pro4.png
+for image 5-> pro5.jpg
+for image 55 -> pro55.png
+
+ -->

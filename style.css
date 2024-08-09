@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300&family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefbfc;
+    transition: all 0.5 ease-in-out;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #292325;
+}
+
+nav li:hover {
+    color: rgb(253, 114, 137);
+    cursor: pointer;
+}
+
+nav li:active {
+    color: rgb(253, 114, 137);
+
+}
+
+.nav-nm:hover {
+    color: rgb(253, 114, 137);
+    cursor: pointer;
+
+}
+
+
+
+.nav-box {
+    transition: all 1s ease-in;
+}
+
+.tect-skill-child img {
+    width: 38px;
+    transition: all 0.5s ease;
+}
+
+.tect-skill-child img:hover {
+    transform: rotateY(-180deg);
+}
+
+
+.tect-skill-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #908b8d;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tect-skill-child h4 {
+    padding-top: 5px;
+}
+
+.project_name {
+    /* border: 1px solid #292325; */
+    background-color: #e15c889a;
+}
+
+
+.project_co_div h4 {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.project_co_div img {
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+
+.project_co_div img::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #908b8d;
+}
+
+#hand {
+    animation: handAnimation 2s infinite;
+}
+
+/* master head */
+
+
+.img_sec {
+    border-radius: 58% 42% 38% 62% / 58% 54% 46% 42%;
+}
+/* Front-End Developer */
+#position {
+    animation: writeLetters 4s steps(4, end) forwards;
+}
+
+.men-header {
+        background-image:
+            radial-gradient(rgb(247, 186, 197) 10%, transparent 10%),
+            radial-gradient(rgb(247, 186, 197) 10%, transparent 10%);
+        background-position: 0px 0px, 104px 104px;
+        background-size: 208px 208px;
+        background-color: rgb(255, 255, 255);
+
+}
+
+.men-header:root {
+    --polka-bg-image:
+        radial-gradient(rgb(247, 186, 197) 10%, transparent 10%),
+        radial-gradient(rgb(247, 186, 197) 10%, transparent 10%);
+    --polka-bg-position: 0px 0px, 104px 104px;
+    --polka-bg-size: 208px 208px;
+    --polka-bg-color: rgb(255, 255, 255);
+}
+
+@keyframes writeLetters {
+    0% {
+        content: "";
+    }
+    25% {
+        content: "a";
+    }
+    50% {
+        content: "ab";
+    }
+    75% {
+        content: "abc";
+    }
+    100% {
+        content: "abcd";
+    }
+}
